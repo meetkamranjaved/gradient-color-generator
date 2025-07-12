@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gradient Color Generator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <meta name="author" content="Kamran Javed">
+    <meta name="copyright" content="OneDigitalLine.com">
+</head>
+
+<body>
+    <main class="wrapper">
+        <section class="gradient-box" aria-label="Gradient Preview Box"></section>
+
+        <div class="row">
+            <div class="column">
+                <p>Direction</p>
+                <div class="select-box">
+                    <select id="direction-select" aria-label="Gradient Direction">
+                        <option value="to top">Top</option>
+                        <option value="to right top">Right Top</option>
+                        <option value="to right">Right</option>
+                        <option value="to right bottom">Right Bottom</option>
+                        <option value="to bottom">Bottom</option>
+                        <option value="to left bottom">Left Bottom</option>
+                        <option value="to left">Left</option>
+                        <option value="to left top" selected>Left Top</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="column">
+                <p>Colors</p>
+                <div class="colors">
+                    <input type="color" id="color1" value="#7c3aed" aria-label="First Color" />
+                    <input type="color" id="color2" value="#8b5cf6" aria-label="Second Color" />
+                </div>
+            </div>
+        </div>
+
+        <textarea id="css-code" rows="2" readonly aria-label="Generated CSS Code">
+background: linear-gradient(to left top, #7c3aed, #8b5cf6);
+    </textarea>
+
+        <div class="buttons">
+            <button class="refresh" id="refresh-btn">Refresh Colors</button>
+            <button class="copy" id="copy-btn">Copy Code</button>
+        </div>
+        <div style="text-align: center; margin-top: 25px; font-size: 14px; color: #888;">
+            © <a href="https://onedigitalline.com" target="_blank"
+                style="color: #6c5ce7; text-decoration: none;">OneDigitalLine.com</a><br>
+            Made by Kamran Javed
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+<!--
+Project: Gradient Color Generator
+Author: Kamran Javed
+Portfolio: https://kamranjaved.com
+Company: OneDigitalLine
+Website: https://onedigitalline.com
+Email: meet@kamranjaved.com
+License: For personal or client use only. Redistribution prohibited.
+© Kamran Javed. All rights reserved.
+-->
+
+</html>
