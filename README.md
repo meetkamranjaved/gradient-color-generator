@@ -15,12 +15,12 @@ A modern, responsive web app that helps you design and preview CSS linear gradie
 ---
 
 ## 🔥 Features
-✅ Live gradient preview
-✅ Direction selector (8 directions)
-✅ Color pickers for start & end colors
-✅ Random color generation
-✅ Copy-ready CSS code
-✅ Responsive design
+✅ Live gradient preview\
+✅ Direction selector (8 directions)\
+✅ Color pickers for start & end colors\
+✅ Random color generation\
+✅ Copy-ready CSS code\
+✅ Responsive design\
 ✅ Modern Poppins typography and polished UI
 
 ---
